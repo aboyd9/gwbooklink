@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: auto; /* Adjust based on your banner's aspect ratio */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 20px; /* Creates the bubble effect */
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ddd; /* Changes background color on hover for interactive effect */
+}
+
+h1, h2 {
+    color: #0056b3;
+}
+.banner {
+    width: 100%; /* Adjust this to control the width; e.g., 50% for half width */
+    max-width: 700px; /* Maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures the image is centered if it's smaller than the container */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
